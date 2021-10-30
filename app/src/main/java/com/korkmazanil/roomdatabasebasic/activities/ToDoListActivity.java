@@ -7,18 +7,13 @@ import androidx.lifecycle.ViewModelProvider;
 import androidx.recyclerview.widget.ItemTouchHelper;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.os.Bundle;
-import android.os.Parcelable;
-
 import com.korkmazanil.roomdatabasebasic.R;
 import com.korkmazanil.roomdatabasebasic.adapters.ToDoListAdapter;
 import com.korkmazanil.roomdatabasebasic.databinding.ActivityToDoListBinding;
 import com.korkmazanil.roomdatabasebasic.model.ToDoList;
 import com.korkmazanil.roomdatabasebasic.model.ToDoListViewModel;
-
-import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.List;
 

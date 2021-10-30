@@ -28,8 +28,8 @@ public class MainActivity extends AppCompatActivity {
             if (!TextUtils.isEmpty(binding.title.getText()) &&
                 !TextUtils.isEmpty(binding.work.getText())){
 
-                String StringTitle = binding.title.getText().toString();
-                String StringWork = binding.work.getText().toString();
+                String StringTitle = binding.title.getText().toString().trim();
+                String StringWork = binding.work.getText().toString().trim();
 
                 ToDoList toDoList = new ToDoList(StringTitle, StringWork);
 

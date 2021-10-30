@@ -1,22 +1,15 @@
 package com.korkmazanil.roomdatabasebasic.adapters;
 
 import android.content.Context;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 import android.widget.TextView;
-import android.widget.Toast;
-
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 import com.korkmazanil.roomdatabasebasic.R;
 import com.korkmazanil.roomdatabasebasic.model.ToDoList;
-
-import java.util.ArrayList;
 import java.util.List;
-import java.util.Objects;
 
 public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ToDoListCardView> {
 
@@ -61,14 +54,12 @@ public class ToDoListAdapter extends RecyclerView.Adapter<ToDoListAdapter.ToDoLi
             holder.title.setText(model.getTitle());
             holder.work.setText(model.getWork());
         }
-
     }
 
     @Override
     public int getItemCount() {
         return toDoLists.size();
     }
-
 
     public void removeItem(int position){
         toDoLists.remove(position);

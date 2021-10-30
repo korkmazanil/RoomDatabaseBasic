@@ -29,7 +29,6 @@ public abstract class ToDoListRoomDatabase extends RoomDatabase {
 
                         ToDoListDao toDoListDao = INSTANCE.toDoListDao();
                         toDoListDao.deleteAll();
-
                     });
                 }
             };
