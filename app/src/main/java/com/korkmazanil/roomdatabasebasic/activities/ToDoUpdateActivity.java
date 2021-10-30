@@ -5,7 +5,6 @@ import androidx.lifecycle.ViewModelProvider;
 import android.content.Intent;
 import android.os.Bundle;
 import android.text.TextUtils;
-import android.view.View;
 import android.widget.Toast;
 import com.korkmazanil.roomdatabasebasic.R;
 import com.korkmazanil.roomdatabasebasic.databinding.ActivityToDoUpdateBinding;
